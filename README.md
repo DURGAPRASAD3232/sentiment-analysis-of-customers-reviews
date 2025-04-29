@@ -1,4 +1,4 @@
-# 🧠 Sentiment Analysis of Amazon Fine Food Reviews
+#  Sentiment Analysis of Amazon Fine Food Reviews
 
 This repository contains the code and results for the MSc Data Science Final Project titled:  
 **"Sentiment Analysis of Customer Reviews Using Machine Learning"**  
@@ -6,12 +6,12 @@ Student: *Durga Prasad Gollapudi*
 University of Hertfordshire | Module: 7PAM2002  
 Supervisor: *Calum Morris*
 
-📅 Submitted on: 29 April 2025  
+ Submitted on: 29 April 2025  
 🔗 GitHub: [https://github.com/DURGAPRASAD3232/sentiment-analysis-of-customers-reviews](https://github.com/DURGAPRASAD3232/sentiment-analysis-of-customers-reviews)
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project applies traditional **machine learning** and modern **deep learning** techniques to classify customer sentiments (positive/negative) based on the **Amazon Fine Food Reviews** dataset.
 
@@ -23,7 +23,7 @@ This project applies traditional **machine learning** and modern **deep learning
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Preprocess and clean customer review data.
 - Implement and compare ML & DL sentiment classifiers.
@@ -34,7 +34,7 @@ This project applies traditional **machine learning** and modern **deep learning
 
 ---
 
-## 🗃️ Dataset
+##  Dataset
 
 - Source: [Kaggle - Amazon Fine Food Reviews](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
 - Size: 568,000+ reviews
@@ -45,27 +45,27 @@ This project applies traditional **machine learning** and modern **deep learning
 
 ---
 
-## 🛠️ Methodology
+##  Methodology
 
-### 🔄 Preprocessing
+###  Preprocessing
 - Lowercasing, punctuation removal
 - Stopword removal, lemmatization
 - TF-IDF and Word2Vec embeddings
 - SMOTE for class balancing
 
-### 🤖 Models Implemented
+###  Models Implemented
 | Type              | Model                |
 |-------------------|----------------------|
 | Machine Learning  | Naïve Bayes, Logistic Regression, SVM |
 | Deep Learning     | LSTM (RNN-based)     |
 
-### 🔧 Hyperparameter Tuning
+###  Hyperparameter Tuning
 - Grid Search (ML models)
 - Learning rate, batch size, early stopping (LSTM)
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 - Accuracy
 - Precision
@@ -73,7 +73,7 @@ This project applies traditional **machine learning** and modern **deep learning
 - F1-Score
 - Confusion Matrix
 
-### 📊 Results Summary
+###  Results Summary
 
 | Model                   | Accuracy | Precision | Recall | F1-Score |
 |------------------------|----------|-----------|--------|----------|
@@ -87,7 +87,7 @@ This project applies traditional **machine learning** and modern **deep learning
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 - Sentiment Distribution Bar Charts
 - Word Clouds (Positive & Negative)
@@ -97,7 +97,7 @@ This project applies traditional **machine learning** and modern **deep learning
 
 ---
 
-## 🧠 Key Insights
+##  Key Insights
 
 - **LSTM** shows excellent performance in capturing context and long-term dependencies.
 - **SVM** is highly effective on sparse text vectors (TF-IDF).
@@ -106,7 +106,7 @@ This project applies traditional **machine learning** and modern **deep learning
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 
 
