@@ -2,14 +2,6 @@
 
 This repository contains the code and results for the MSc Data Science Final Project titled:  
 **"Sentiment Analysis of Customer Reviews Using Machine Learning"**  
-Student: *Durga Prasad Gollapudi*  
-University of Hertfordshire | Module: 7PAM2002  
-Supervisor: *Calum Morris*
-
- Submitted on: 29 April 2025  
-🔗 GitHub: [https://github.com/DURGAPRASAD3232/sentiment-analysis-of-customers-reviews](https://github.com/DURGAPRASAD3232/sentiment-analysis-of-customers-reviews)
-
----
 
 ##  Overview
 
