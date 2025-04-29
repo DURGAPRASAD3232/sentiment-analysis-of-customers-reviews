@@ -107,6 +107,42 @@ This project applies traditional **machine learning** and modern **deep learning
 ---
 
 ## Folder Structure
+sentiment-analysis-of-customers-reviews/
+├── data/
+│   ├── reviews.csv                    # Raw dataset (filtered if needed)
+│   └── processed_reviews.csv          # Cleaned and labeled binary sentiment data
+│
+├── notebooks/
+│   ├── 1_preprocessing_eda.ipynb      # Data cleaning, EDA, word clouds
+│   ├── 2_ml_models.ipynb              # Naïve Bayes, Logistic Regression, SVM
+│   ├── 3_lstm_model.ipynb             # LSTM implementation and evaluation
+│   └── 4_model_comparison.ipynb       # Metric plots and comparative evaluation
+│
+├── models/
+│   ├── svm_model.pkl                  # Trained SVM model
+│   ├── lstm_model.h5                  # Trained LSTM model
+│   ├── tfidf_vectorizer.pkl           # TF-IDF vectorizer for ML models
+│   └── tokenizer.pickle               # Tokenizer used for LSTM
+│
+├── results/
+│   ├── confusion_matrix_svm.png
+│   ├── confusion_matrix_lstm.png
+│   ├── model_metrics_comparison.png
+│   ├── wordcloud_positive.png
+│   └── wordcloud_negative.png
+│
+├── utils/
+│   ├── preprocessing.py               # Text cleaning and tokenization functions
+│   ├── visualizations.py              # Word cloud, confusion matrix, charts
+│   └── model_utils.py                 # Training, evaluation, and saving helpers
+│
+├── report/
+│   └── final_project_report.pdf       # MSc Final Project Report (optional)
+│
+├── sentiment_.py                      # Main script to run complete pipeline
+├── README.md                          # Project overview and documentation
+├── requirements.txt                   # List of Python dependencies
+└── LICENSE                            # License file (MIT recommended)
 
 
 
